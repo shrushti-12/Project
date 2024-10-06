@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Univesal Law Group Services</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Universal Law Group Services</h1>
+        <img src="/logo.jpeg" alt="Logo" style="width: 100px; height: auto;">
+    </header>
+    <main>
+        <section>
+            <h2>For Users</h2>
+            <p>If you are a user, please enter your phone number to view your message.</p>
+            <form action="/user/view-message" method="POST">
+                <input type="text" name="phone" placeholder="Enter your phone number" required>
+                <button type="submit">View Message</button>
+            </form>
+        </section>
+        <section>
+            <h2>For Admin</h2>
+            <p>If you are an admin, please log in to the dashboard.</p>
+            <a href="/admin/login">Admin Login</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Universal Group Law Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
